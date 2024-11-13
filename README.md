@@ -40,6 +40,11 @@ This repository integrates publicly available data from:
 - **ERCOT**: Locational Marginal Price and node data.
 - **Energy Information Administration (EIA)**: Locations of renewable energy and ESS installations.
 
+## Support Team
+This project is a collaboration of our group members under the supervision of Prof. Le Xie, Gordon McKay Professor of Electrical Engineering at Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS). The support team keeps processing, correcting and updating the data every day. The team will also conduct further research analysis and share the latest progress in this repository.
+
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/4a9b13e1-6d51-4f27-8282-55ea923e7266">
+
 ## Contact Us
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
