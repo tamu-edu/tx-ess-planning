@@ -4,7 +4,9 @@ This data repository is specifically designed to remove access barriers and empo
 ## Features
 The data repository for Energy Storage System (ESS) planning offers a comprehensive collection of datasets that support in-depth analysis of energy storage opportunities across Texas. The key features include:
 
-### 1. Locational Marginal Prices (LMPs) for ERCOT Nodes
+![image](https://github.com/user-attachments/assets/e44aa0dd-e37e-4237-9a45-7ebbee6c4d68)
+
+### 1. Locational Marginal Prices (`LMPs`) for ERCOT Nodes
 - **Data Coverage**: Historical LMP data for all ERCOT nodes, spanning from 2010 to 2022.
 - **Resolution**: Prices are available at a 5-minute interval resolution, facilitating granular temporal analysis.
 - **Data Structure**: Organized by node and year, each day is represented by a unique column with 5-minute intervals over 24 hours represented in 288 rows.
@@ -17,9 +19,6 @@ The data repository for Energy Storage System (ESS) planning offers a comprehens
 ### 3. Locations of Renewable Energy and ESS Sites
 - **Coverage**: Includes the geographic locations of solar farms, wind power facilities, and ESS installations across Texas.
 - **Support for Spatial Analysis**: The coordinates provided for each installation allow for precise spatial analysis and mapping, aiding in identifying synergies in energy generation and storage.
-
-![image](https://github.com/user-attachments/assets/e44aa0dd-e37e-4237-9a45-7ebbee6c4d68)
-
 
 ## Navigation
 This repository mainly contains three components: source data, released data, and plotting code. We navigate this data repository as follows:
