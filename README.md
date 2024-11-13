@@ -1,2 +1,47 @@
-# tx-ess-planning
-A Cross-source Data Repository for Energy Storage Planning in Texas, U.S.
+# A Cross-Source Data Repository for Energy Storage Planning
+This data repository is specifically designed to remove access barriers and empower researchers to conduct more efficient analysis, fostering innovation in ESS optimization and grid economics.
+
+## Features
+The data repository for Energy Storage System (ESS) planning offers a comprehensive collection of datasets that support in-depth analysis of energy storage opportunities across Texas. The key features include:
+
+### 1. Locational Marginal Prices (LMPs) for ERCOT Nodes
+- **Data Coverage**: Historical LMP data for all ERCOT nodes, spanning from 2010 to 2022.
+- **Resolution**: Prices are available at a 5-minute interval resolution, facilitating granular temporal analysis.
+- **Data Structure**: Organized by node and year, each day is represented by a unique column with 5-minute intervals over 24 hours represented in 288 rows.
+- **Access**: The data democratizes access to long-term ERCOT LMP data, which can be challenging to obtain.
+
+### 2. Geographic Locations of ERCOT Nodes
+- **Mapping**: Locational data of ERCOT nodes has been extracted and mapped onto a 600-by-600-pixel representation of Texas.
+- **Visualization**: The map and conversion tools provided in this repository enable spatially accurate visualizations, such as those comparing locational marginal prices over time.
+
+### 3. Locations of Renewable Energy and ESS Sites
+- **Coverage**: Includes the geographic locations of solar farms, wind power facilities, and ESS installations across Texas.
+- **Support for Spatial Analysis**: The coordinates provided for each installation allow for precise spatial analysis and mapping, aiding in identifying synergies in energy generation and storage.
+
+![image](https://github.com/user-attachments/assets/e44aa0dd-e37e-4237-9a45-7ebbee6c4d68)
+
+
+## Navigation
+This repository mainly contains three components: source data, released data, and plotting code. We navigate this data repository as follows:
+
+![image](https://github.com/user-attachments/assets/fba7216a-b05f-4a9e-b201-cda018a70cac)
+
+All data sourced from the ERCOT Data Access Portal is archived in the `data_source/` folder. Although ERCOT generates one file every 5 minutes, we have organized these files by year to simplify analysis, consolidating them into a single file per year. Each yearly file is named in the format `lmp_<year>_nodes.csv`.
+
+For filtered data, the `data_release/` folder contains individual files for each node, organized by year. Each file, named `<nodename>_<year>.csv`, provides 5-minute interval LMP values for the respective node.
+
+## Usage
+This repository is ideal for:
+- **Temporal Analysis**: Examining LMP variability over time across different ERCOT nodes.
+- **Spatial Analysis**: Understanding locational price differences and optimizing energy storage deployment.
+- **Energy Storage Planning**: Supporting planning for ESS by providing detailed data on prices, locations, and renewable generation facilities.
+
+## Acknowledgments
+This repository integrates publicly available data from:
+- **ERCOT**: Locational Marginal Price and node data.
+- **Energy Information Administration (EIA)**: Locations of renewable energy and ESS installations.
+
+## Contact Us
+Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Email contact: [Le Xie](mailto:xie@seas.harvard.edu), [Dongjoo Kim](mailto:djkim@tamu.edu), [Subir Majumder](mailto:subir.majumder@tamu.edu)
