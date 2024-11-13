@@ -44,4 +44,4 @@ This repository integrates publicly available data from:
 ## Contact Us
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Email contact: [Le Xie](mailto:xie@seas.harvard.edu), [Dongjoo Kim](mailto:djkim@tamu.edu), [Subir Majumder](mailto:subir.majumder@tamu.edu)
+Email contact: [Le Xie](mailto:xie@seas.harvard.edu), [Dongjoo Kim](mailto:djkim@tamu.edu), [Subir Majumder](mailto:subir-em@ieee.org)
