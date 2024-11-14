@@ -2,7 +2,7 @@
 This data repository is thoughtfully designed to enhance accessibility, empowering researchers to conduct more efficient analyses and drive innovation in ESS optimization and grid economics.
 
 ## Features
-The data repository for Energy Storage System (ESS) planning offers a comprehensive collection of datasets that support in-depth analysis of energy storage opportunities across Texas. The key features include:
+The data repository for Energy Storage planning offers a comprehensive collection of datasets that support in-depth analysis of energy storage opportunities across Texas. The key features include:
 
 ![image](https://github.com/user-attachments/assets/e44aa0dd-e37e-4237-9a45-7ebbee6c4d68)
 
