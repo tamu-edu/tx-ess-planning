@@ -1,5 +1,5 @@
 # A Cross-Source Data Repository for Energy Storage Planning
-This data repository is specifically designed to remove access barriers and empower researchers to conduct more efficient analysis, fostering innovation in ESS optimization and grid economics.
+This data repository is thoughtfully designed to enhance accessibility, empowering researchers to conduct more efficient analyses and drive innovation in ESS optimization and grid economics.
 
 ## Features
 The data repository for Energy Storage System (ESS) planning offers a comprehensive collection of datasets that support in-depth analysis of energy storage opportunities across Texas. The key features include:
