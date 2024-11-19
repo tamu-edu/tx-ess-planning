@@ -23,7 +23,8 @@ The data repository for Energy Storage planning offers a comprehensive collectio
 ## Navigation
 This repository mainly contains three components: source data, released data, and plotting code. We navigate this data repository as follows:
 
-![image](https://github.com/user-attachments/assets/fba7216a-b05f-4a9e-b201-cda018a70cac)
+![image](https://github.com/user-attachments/assets/a1627fea-d9d4-4448-b930-431a84bc9eae)
+
 
 All data sourced from the ERCOT Data Access Portal is archived in the `data_source/` folder. Although ERCOT generates one file every 5 minutes, we have organized these files by year to simplify analysis, consolidating them into a single file per year. Each yearly file is named in the format `lmp_<year>_nodes.csv`.
 
