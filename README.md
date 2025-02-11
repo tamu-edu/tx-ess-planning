@@ -15,12 +15,12 @@ The data repository for Energy Storage planning offers a comprehensive collectio
 ### 2. Estimated Geographic Locations of ERCOT Nodes
 - **Mapping**: Geographic data derived from ERCOT's Real-Time Locational Prices map.
 - **Visualization**: The provided map and conversion tools enable spatial visualizations, such as comparing LMPs over time.
-- **Important**: All geographic information reflects only relative positioning to 600 by 600 pixels map rather than actual coordinates, and should not be considered accurate. The data were estimated from ERCOT's Real-Time Locational Prices Map and no details about the actual node locations are available.
+- **Important**: All geographic information represents only relative positioning on a 600×600 pixel map of Texas for visualization purposes, rather than actual coordinates, and should not be considered accurate. The data were estimated from ERCOT's Real-Time Locational Prices Map, and no details about the actual node locations are available.
 
 ### 3. Estimated Locations of Renewable Energy and ESS Sites
 - **Coverage**: Includes the estimated geographic locations of solar farms, wind power facilities, and ESS installations across Texas.
 - **Support for Spatial Analysis**: The relative coordinates provided for each installation allow for precise spatial analysis and mapping, aiding in identifying synergies in energy generation and storage.
-- **Important**: All geographic information reflects only relative positioning to 600 by 600 pixels map rather than actual coordinates, and should not be considered accurate.
+- **Important**: All geographic information represents only relative positioning on a 600×600 pixel map of Texas for visualization purposes, rather than actual coordinates, and should not be considered accurate.
 
 ## Navigation
 This repository mainly contains three components: source data, released data, and plotting code. We navigate this data repository as follows:
